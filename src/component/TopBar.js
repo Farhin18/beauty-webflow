@@ -100,35 +100,30 @@ export default ({ Home, About, Pages, Services, Contact }) => {
               color: "#555555",
               fontWeight: "400",
               marginLeft: "5rem",
+              display: "flex",
+              alignItems: "center",
             }}
           >
-            <button onClick={Pages}>Pages</button>
-          </p>
-          <img
-            src={require("../asset/chevron-down.png")}
-            alt="Photo"
-            style={{
-              height: 16,
-              width: 16,
-            }}
-          />
-          <p
-            style={{
-              color: "#555555",
-              fontWeight: "400",
-              marginLeft: "5rem",
-            }}
-          >
-            <p onClick={() => navigate("/about")}> About</p>
+            <p style={{ cursor: "pointer" }}>Pages</p>
+            <img
+              src={require("../asset/chevron-down.png")}
+              alt="Photo"
+              style={{
+                height: 16,
+                width: 16,
+                cursor: "pointer",
+              }}
+            />
           </p>
           <p
             style={{
               color: "#555555",
               fontWeight: "400",
               marginLeft: "5rem",
+              cursor: "pointer",
             }}
           >
-            <button onClick={Services}>Services</button>
+            <p onClick={() => navigate("/about")}>About</p>
           </p>
           <p
             style={{
@@ -137,7 +132,16 @@ export default ({ Home, About, Pages, Services, Contact }) => {
               marginLeft: "5rem",
             }}
           >
-            <button onClick={Contact}>Contact</button>
+            <p style={{ cursor: "pointer" }}>Services</p>
+          </p>
+          <p
+            style={{
+              color: "#555555",
+              fontWeight: "400",
+              marginLeft: "5rem",
+            }}
+          >
+            <p style={{ cursor: "pointer" }}>Contact</p>
           </p>
         </div>
 

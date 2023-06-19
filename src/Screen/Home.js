@@ -3,6 +3,7 @@ import TopBar from "../component/TopBar";
 import { Button } from "react-bootstrap";
 import ReadMore from "../component/ReadMore";
 import AboutUs from "../component/AboutUs";
+import About from "../Screen/About";
 
 export default ({ image }) => {
   return (
@@ -76,7 +77,7 @@ export default ({ image }) => {
 
             <p
               style={{
-                marginTop: "-1rem",
+                // marginTop: "-1rem",
                 width: "50%",
               }}
             >
@@ -184,7 +185,7 @@ export default ({ image }) => {
               style={{
                 width: "50%",
                 height: "560px",
-                marginTop: "-5rem",
+                // marginTop: "-5rem",
               }}
             >
               <div>
@@ -203,7 +204,7 @@ export default ({ image }) => {
                     color: "#141414",
                     fontWeight: "600",
                     fontSize: "55px",
-                    marginTop: "1rem",
+                    // marginTop: "1rem",
                   }}
                 >
                   The Beauty is about being Comfortable in your own skin!
@@ -215,7 +216,7 @@ export default ({ image }) => {
                     color: "#555555",
                     fontWeight: "400",
                     fontSize: "18px",
-                    marginTop: "-2rem",
+                    // marginTop: "-2rem",
                   }}
                 >
                   There are many variations of passages of Lorem Ipsum
@@ -226,7 +227,7 @@ export default ({ image }) => {
               </div>
               <div
                 style={{
-                  marginTop: "-3rem",
+                  // marginTop: "-3rem",
                   display: "flex",
                   flexDirection: "row",
                   justifyContent: "space-between",
@@ -293,7 +294,7 @@ export default ({ image }) => {
             style={{
               display: "flex",
               justifyContent: "center",
-              marginTop: "-2rem",
+              // marginTop: "-2rem",
             }}
           >
             <h1
@@ -395,7 +396,7 @@ export default ({ image }) => {
                       width: "527px",
                       fontWeight: 400,
                       fontSize: "18px",
-                      marginTop: "-1rem",
+                      // marginTop: "-1rem",
                     }}
                   >
                     The versions have evolved over the sometimes by accident.
@@ -426,7 +427,7 @@ export default ({ image }) => {
                       width: "527px",
                       fontWeight: 400,
                       fontSize: "18px",
-                      marginTop: "-1rem",
+                      // marginTop: "-1rem",
                     }}
                   >
                     The versions have evolved over the sometimes by accident.
@@ -457,7 +458,7 @@ export default ({ image }) => {
                       width: "527px",
                       fontWeight: 400,
                       fontSize: "18px",
-                      marginTop: "-1rem",
+                      // marginTop: "-1rem",
                     }}
                   >
                     The versions have evolved over the sometimes by accident.
@@ -465,7 +466,7 @@ export default ({ image }) => {
                 </div>
                 <Button
                   style={{
-                    marginTop: "1rem",
+                    // marginTop: "1rem",
                     display: "flex",
                     padding: "23px",
                     "34px": "24px",
@@ -504,7 +505,7 @@ export default ({ image }) => {
               <div
                 style={{
                   height: "640px",
-                  marginTop: "5rem",
+                  // marginTop: "5rem",
                 }}
               >
                 <div
@@ -533,7 +534,7 @@ export default ({ image }) => {
                       width: "527px",
                       fontWeight: 400,
                       fontSize: "18px",
-                      marginTop: "-1rem",
+                      // marginTop: "-1rem",
                     }}
                   >
                     The versions have evolved over the sometimes by accident.
@@ -564,7 +565,7 @@ export default ({ image }) => {
                       width: "527px",
                       fontWeight: 400,
                       fontSize: "18px",
-                      marginTop: "-1rem",
+                      // marginTop: "-1rem",
                     }}
                   >
                     The versions have evolved over the sometimes by accident.
@@ -595,7 +596,7 @@ export default ({ image }) => {
                       width: "527px",
                       fontWeight: 400,
                       fontSize: "18px",
-                      marginTop: "-1rem",
+                      // marginTop: "-1rem",
                     }}
                   >
                     The versions have evolved over the sometimes by accident.
@@ -627,7 +628,7 @@ export default ({ image }) => {
                       width: "527px",
                       fontWeight: 400,
                       fontSize: "18px",
-                      marginTop: "-1rem",
+                      // marginTop: "-1rem",
                     }}
                   >
                     The versions have evolved over the sometimes by accident.
@@ -635,7 +636,7 @@ export default ({ image }) => {
                 </div>
                 <Button
                   style={{
-                    marginTop: "1rem",
+                    // marginTop: "1rem",
                     display: "flex",
                     padding: "23px",
                     "34px": "24px",
@@ -697,7 +698,7 @@ export default ({ image }) => {
               height: "58px",
               fontWeight: "700",
               fontSize: "45px",
-              marginTop: "-1rem",
+              // marginTop: "-1rem",
             }}
           >
             What our Customer says...
@@ -721,7 +722,7 @@ export default ({ image }) => {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              marginTop: "5rem",
+              // marginTop: "5rem",
             }}
           >
             <div
