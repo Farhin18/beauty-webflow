@@ -8,8 +8,10 @@ export default ({ imageV, main, mainSub }) => {
         width: " 590px",
         height: "124px",
         marginTop: 60,
+
         borderBottom: "1px solid #D3D3D3",
         display: "flex",
+        // justifyContent: "center",
       }}
     >
       <img
@@ -28,9 +30,6 @@ export default ({ imageV, main, mainSub }) => {
           marginTop: "-1rem",
           width: " 458px",
           height: "124px",
-          //   display: "flex",
-          //   flexDirection: "column",
-          //   alignItems: "flex-start",
         }}
       >
         <h1
@@ -39,7 +38,7 @@ export default ({ imageV, main, mainSub }) => {
             height: "26px",
             fontSize: "22px",
             fontWeight: 700,
-            // marginTop: "1rem",
+            marginTop: "1rem",
           }}
         >
           {main}
@@ -51,6 +50,7 @@ export default ({ imageV, main, mainSub }) => {
             fontSize: "18px",
             fontWeight: 400,
             marginTop: "0.5rem",
+            textAlign: "start",
           }}
         >
           {mainSub}
