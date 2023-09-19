@@ -5,7 +5,7 @@ export default ({ title, subTitle, imageUrl }) => {
   return (
     <div
       style={{
-        width: "440px",
+        width: "400px",
         height: "500px",
         marginTop: "4rem",
       }}

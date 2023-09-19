@@ -60,9 +60,9 @@ export default ({ image }) => {
 
             <div
               style={{
-                marginLeft: "1rem",
+                // marginLeft: "1rem",
                 color: " #141414",
-                marginTop: "-3rem",
+                // marginTop: "-3rem",
               }}
             >
               <h1
@@ -365,7 +365,7 @@ export default ({ image }) => {
                       width: "527px",
                       fontWeight: 400,
                       fontSize: "18px",
-                      marginTop: "-1rem",
+                      // marginTop: "-1rem",
                     }}
                   >
                     The versions have evolved over the sometimes by accident.
@@ -678,11 +678,12 @@ export default ({ image }) => {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            backgroundColor: "blue",
+            // backgroundColor: "blue",
           }}
         >
           <p
             style={{
+              // marginTop: "1rem",
               Color: "#5C8692",
               width: "123px",
               height: "23px",
@@ -698,7 +699,7 @@ export default ({ image }) => {
               height: "58px",
               fontWeight: "700",
               fontSize: "45px",
-              // marginTop: "-1rem",
+              marginTop: "-1rem",
             }}
           >
             What our Customer says...
@@ -711,7 +712,7 @@ export default ({ image }) => {
             display: "flex",
             flexDirection: "row",
             alignItems: "center",
-            background: "yellow",
+            // background: "yellow",
           }}
         >
           <div
@@ -759,7 +760,7 @@ export default ({ image }) => {
             >
               <div
                 style={{
-                  background: "blue",
+                  // background: "blue",
                   width: "232px",
                   height: "74px",
                 }}

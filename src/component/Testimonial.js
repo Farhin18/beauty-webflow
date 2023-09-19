@@ -7,7 +7,7 @@ export default ({ imageJ, headM, headS }) => {
       style={{
         width: " 582px",
         height: "359px",
-        backgroundColor: "aqua",
+        // backgroundColor: "aqua",
       }}
     >
       <p className="text-center">
